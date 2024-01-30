@@ -19,7 +19,7 @@
 }
 
 .piko-img {
-    width: 100%;
+    width: 20%;
     border-radius: 1em;
 }
 
@@ -47,4 +47,8 @@
 
 .piko-weakness {
 
+}
+
+.details {
+    
 }
