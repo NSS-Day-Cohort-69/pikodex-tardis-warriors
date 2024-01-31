@@ -5,6 +5,22 @@
     margin-top: 1rem;
 }
 
+body {
+    background-color: #2B3D53
+}
+
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px black solid;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -40px
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -14,13 +30,18 @@
 }
 
 .piko-card {
+    margin-top: 50px;
     flex-basis: 25%;
-    margin: 3em;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #F8F1D4;
 }
 
 .piko-img {
-    width: 20%;
     border-radius: 1em;
+    margin-top: -50px;
+    margin-bottom: 25px;
+    
 }
 
 .piko-info {
@@ -30,23 +51,32 @@
 .info-text {
     font-family: monospace;
     font-size: 1rem;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 5px;
+    border-top: 2px solid black
 }
 
 .piko-name {
     font-family: "copperplate", fantasy;
     font-size: 1.5em;
+    margin-right: 25px;
+    margin-left: 5px;
+    margin-top: -20px;
 }
 
-.piko-abilities {
 
+
+.piko-abilities {
+    margin: 10px;
 }
 
 .piko-category {
-
+    margin: 10px;
 }
 
 .piko-weakness {
-
+    margin: 10px;
 }
 
 .details {
