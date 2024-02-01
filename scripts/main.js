@@ -1,4 +1,8 @@
-const container = document.querySelector('#container')
+import { getPikoList } from "./pikomon.js"
+
+const pikoList = getPikoList()
+const cardList = document.querySelector('#card-list')
+cardList.innerHTML = pikoList
 
 // Import pikomonList function
 
