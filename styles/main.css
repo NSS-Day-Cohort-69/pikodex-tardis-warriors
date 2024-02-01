@@ -1,8 +1,14 @@
 #title {
     text-align: center;
-    font-family: copperplate;
+    /* font-family: copperplate; */
+    font-family: 'Belanosima';
     font-size: 5em;
     margin-top: 1rem;
+    color: #EE4B2B;
+    /* text-shadow: 3px 4px 1px white; */
+    text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    border-bottom: solid;
+    /* box-shadow: 10px; */
 }
 
 body {
@@ -29,12 +35,20 @@ ul {
     margin-bottom: 3rem;
 }
 
+#card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1080px;
+}
+
 .piko-card {
-    margin-top: 50px;
+    margin-top: 8%;
     flex-basis: 25%;
     border: 2px solid black;
     text-align: center;
     background-color: #F8F1D4;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .piko-img {
