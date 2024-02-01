@@ -3,35 +3,27 @@ import { getDatabase } from './database.js'
 const allPikomon = getDatabase()
 
 // Define and export a function to generate HTML, pikomonList
-
-    // Initialize empty String pikoHTML
-
-    // Loop all Pikomon
-
-        // Interpolate Pikomon object data into HTML String Template, adding to pikoHTML
-
-    // Return pikoHTML
-
-    export const getPikoList = () => {
-        let pikoHTML = ""
-        for (const piko of allPikomon) {
-            pikoHTML += `<section>
-            <div class="piko-card">
-                <div class="piko-img">
-                    <img src="${piko.imageUrl}">
-                </div>
-                <div class="piko-info">
-                    <div class="piko-name">${piko.name}</div>
-                    <div class="info-text">
-                        <ul>
-                            <li class="piko-category">Category: ${piko.category}</li>
-                            <li class="piko-abilities">Abilities: ${piko.abilities}</li>
-                            <li class="piko-weakness">Weakness: ${piko.weakness}</li>
-                        </ul>
-                    </div>
+export const getPikoList = () => {
+    let pikoHTML = ""
+    for (const piko of allPikomon) {
+        pikoHTML += `<section>
+        <div class="piko-card">
+            <div class="piko-img">
+                <img src="${piko.imageUrl}">
+            </div>
+            <div class="piko-info">
+                <div class="piko-name">${piko.name}</div>
+                <div class="info-text">
+                    <ul>
+                        <li class="piko-category">Category: ${piko.category}</li>
+                        <li class="piko-abilities">Abilities: ${piko.abilities}</li>
+                        <li class="piko-weakness">Weakness: ${piko.weakness}</li>
+                    </ul>
                 </div>
             </div>
-        </section>`
-        }
-        return pikoHTML
+        </div>
+    </section>`
     }
+    return pikoHTML
+}
+    
