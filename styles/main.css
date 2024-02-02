@@ -96,3 +96,11 @@ ul {
 .details {
     
 }
+
+#whistler {
+    text-align: center;
+}
+
+#whistler img {
+    border-radius: 0%;
+}
