@@ -9,10 +9,17 @@
     text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
     border-bottom: solid;
     /* box-shadow: 10px; */
+    background-color: #2B3D53;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    align-self: center;
 }
 
 body {
-    background-color: #2B3D53
+    /* background-color: #f5c556;
+    background-color: #549fbf; */
+    background-image: url("../assets/background-image.jpg");
 }
 
 
@@ -29,7 +36,8 @@ ul {
 
 #container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     justify-content: center;
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -39,23 +47,33 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 1080px;
+    align-self: center;
+    width: 1280px;
 }
 
 .piko-card {
     margin-top: 25%;
     flex-basis: 25%;
-    border: 2px solid black;
-    text-align: center;
-    background-color: #F8F1D4;
     box-shadow: 0 15px 33px rgba(0,0,0,0.30), 0 10px 8px rgba(0,0,0,0.22);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    width: 300px;
-    height: 300px;
+    padding: 15px;
+    padding-top: 73px;
+    padding-bottom: 25px;
+    background-color: #2B3D53;
+    border-radius: 15px;
 }
 
 .piko-card:hover {
     box-shadow: 0 34px 63px rgba(0,0,0,0.25), 0 25px 22px rgba(0,0,0,0.22);
+}
+
+.piko-content {
+    border: 2px solid black;
+    text-align: center;
+    background-color: #F8F1D4;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
 }
 
 .piko-img {
