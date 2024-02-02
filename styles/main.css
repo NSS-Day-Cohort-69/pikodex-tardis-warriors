@@ -9,10 +9,17 @@
     text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
     border-bottom: solid;
     /* box-shadow: 10px; */
+    background-color: #2B3D53;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    align-self: center;
 }
 
 body {
-    /* background-color: #2B3D53 */
+    /* background-color: #f5c556;
+    background-color: #549fbf; */
+    background-image: url("../assets/background-image.jpg");
 }
 
 
@@ -41,7 +48,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-around;
     align-self: center;
-    width: 1080px;
+    width: 1280px;
 }
 
 .piko-card {
